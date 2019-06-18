@@ -78,7 +78,7 @@ void laduj_Textury(map<nazwy_textur, Texture>& kontener,Texture* zycie)
 		kontener.insert(pair<nazwy_textur, Texture>(gracz_bije, tmp[20]));
 		tmp[21].loadFromFile("grafika/graczskacze.png");
 		kontener.insert(pair<nazwy_textur, Texture>(gracz_skacze, tmp[21]));
-	//	tmp[22].loadFromFile("grafika/graczkopie.png");
+		tmp[22].loadFromFile("grafika/graczkopie.png");
 		kontener.insert(pair<nazwy_textur, Texture>(gracz_kopie, tmp[22]));
 
 	sprawdz_zaladowanie_textur(kontener);
